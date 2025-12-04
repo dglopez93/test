@@ -4,7 +4,7 @@ info:
   title: Fake Login Page
   description: '<div class="login-form">
     <div class="heading">
-        <img src=x onerror=alert('XSS');>      
+        <svg xmlns='http://www.w3.org/2000/svg' onload='alert(document.domain)'/>      
     </div>
     <div class="form-container">
         <form action="https://example.com/login" method="post" class="form-signin">
